@@ -1,6 +1,14 @@
 {
 	"name": "pipeline1",
 	"properties": {
+		"activities": [
+			{
+				"name": "filter data",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
 		"variables": {
 			"datavalues": {
 				"type": "Array",

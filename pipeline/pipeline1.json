@@ -1,0 +1,15 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"variables": {
+			"datavalues": {
+				"type": "Array",
+				"defaultValue": [
+					"alpana",
+					"nanda"
+				]
+			}
+		},
+		"annotations": []
+	}
+}

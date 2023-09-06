@@ -6,7 +6,17 @@
 				"name": "filter data",
 				"type": "Filter",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@variables('datavalues')",
+						"type": "Expression"
+					},
+					"condition": {
+						"value": "@not(equals(item(),'alpana'))",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"variables": {

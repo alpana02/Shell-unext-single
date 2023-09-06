@@ -1,0 +1,9 @@
+{
+	"name": "df06alpana",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8703f8cb-8c95-4429-b4ca-2e65ca1b32b5",
+		"tenantId": "dce87315-8ffa-4a01-ab40-0de5a7214b2f"
+	}
+}
